@@ -1,0 +1,52 @@
+; Aero Default Cursor Pack
+[Version]
+signature    ="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles    = Scheme.Cur
+AddReg       = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur   = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Scheme.Cur]
+Arrow.cur,src\Arrow.cur
+Cross.cur,src\Cross.cur
+Hand.cur,src\Hand.cur
+Help.cur,src\Help.cur
+Move.cur,src\Move.cur
+Pen.cur,src\Pen.cur
+Resize1.cur,src\Resize1.cur
+Resize2.cur,src\Resize2.cur
+Resize3.cur,src\Resize3.cur
+Resize4.cur,src\Resize4.cur
+Up.cur,src\Up.cur
+Text.cur,src\Text.cur
+Busy.ani,src\busy\Default.ani
+Unavailable.ani,src\unavailable\Default.ani
+Working.ani,src\working\Default.ani
+
+[Scheme.Txt]
+
+[Strings]
+CUR_DIR      = "Cursors\Aero\Default"
+SCHEME_NAME  = "Aero Default"
+pointer      = "Arrow.cur"
+help         = "Help.cur"
+work         = "Working.ani"
+busy         = "Busy.ani"
+text         = "Text.cur"
+unavailiable = "Unavailable.ani"
+vert         = "Resize3.cur"
+horz         = "Resize1.cur"
+dgn1         = "Resize4.cur"
+dgn2         = "Resize2.cur"
+move         = "Move.cur"
+cross        = "Cross.cur"
+link         = "Hand.cur"
+hand         = "Pen.cur"
+alternate    = "Up.cur"
+
